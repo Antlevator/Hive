@@ -70,6 +70,8 @@ public class Main {
 			}
 		}
 		
+//		NUM_PLAYERS = 3;
+		
 		boolean loop_until_complete = true;
 		while(loop_until_complete) {
 			
@@ -93,6 +95,10 @@ public class Main {
 			}
 			
 		}
+		
+//		for(int i = 0; i < NUM_PLAYERS; i++) {
+//			players.add(new Player((int)(Math.random()*255*255*255)));
+//		}
 		
 		runGame();
 		
